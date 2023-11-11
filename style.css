@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Mono';
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #eb83e7, #83ebe3);
+}
+
+.holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 450px;
+  padding: 2rem 3rem;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0.7rem 0 2rem 0;
+}
+
+input[type='text'] {
+  width: 120px;
+  height: 70px;
+  border: 3px solid #ea56e5;
+  border-radius: 10% 20%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#btn-guess {
+  padding: 0.3rem 0.7rem;
+  margin-top: 1.4rem;
+  cursor: pointer;
+  background-color: #774694;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#btn-play-again {
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  background-color: #08a4e7;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  margin: 1.3rem 0;
+  font-size: 1.1rem;
+}
